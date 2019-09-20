@@ -1,0 +1,23 @@
+Kirby-like platformer game
+**CONCEPT**
+  -player is a student trying to make his/her way through college
+  -enemies can include homework, supplies, bills, fees, and etc
+  -mini bosses will include projects, mid-terms and finals
+  -final boss will be a thesis paper or something
+  
+**MECHANICS**
+  -will include occasional power-ups in the form of friends that tag along (this may be difficult to implement as its
+   essentially a CPU, but we can take on this challenge if we want)
+  -player will likely have some way of attacking enemies (maybe letter grades, and as we upgrade the weapon, the weapon
+   shoots better grades (more damage)), we can modify this idea later
+  -players will have to collect pieces of their diploma throughout the game. if at the end they do not have all the pieces,
+   they lose
+  -pop up window to show players their progress (diploma fragments collected, controls help, exit to title screen, etc)
+  
+**GRAPHICS**
+  -we can probably hand draw some of this stuff and scan it into Unity
+
+**WHAT DO PLAYERS LEARN FROM THIS**
+  -we want to convey the struggles of being a college student
+  -some parts of the game will be slightly exaggerated, but for the most part will simulate some real-life issues in college
+  
