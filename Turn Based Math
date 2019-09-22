@@ -1,0 +1,95 @@
+What does this mean:
+ALT: an alternative to whatever is above this tag. 
+OPTION: Different ways to implement the feature
+
+Game idea: Turn based RPG-style game using math
+
+Game Goal: To help anyone develop or enhance their math skills by having to quickly think of solutions to math equations in a fun environment. 
+
+Player Goal: TBD based on setting (most likely defeat a boss, such as the final for a math class in school setting)
+
+Battle Type:
+
+Randomized:
+Player randomly gets into battle. 
+    Set:
+Certain event trigger battles (for example, maybe talking to someone triggers battles)
+(Core) Combat System 1: 
+Turn Based with an Action Timer.
+
+
+
+This will be the MAIN FOCUS of the game, taking the highest priority over any other feature.
+
+In combat, a randomized equation (or a number)  is displayed at the top of the screen. The player must input what number(s) may equal to the one displayed using the operation given. After each turn, the number changes randomly to a higher number.
+ALT: A default number is given based on player stats. The number increases as the player does not attack, but will reset to default if the player attacks.
+ALTOPTION1: An additional Standby option is given for player choices. This option lets the number increment while the player does nothing (Similar to the Bravely Default game?)
+ALTOPTION2: Player either defends or attacks. If the player successfully defends, the number will increment. If they are unsuccessful, the enemy will deal damage based on the number.
+
+
+
+During combat, the player is given the following options:
+
+Attack: Choosing this will bring up a selection of which enemy to attack. After choosing the enemy, the player must solve the equation in order to successfully attack. If they are wrong, the enemy will be given a chance to attack. The operation for the equation is not shown until after the enemy is chosen, and is randomized. 
+ALT: The player can choose the operation for equation (higher customizability)
+OPTION1: “Multiple choice edition”: the player is given 4 choices, one(or two) of which are the correct solution to the equation.
+OPTION2: “Short Answer ver 1” : The player must input at least 2 numbers with the operation chosen/given that will equal to the number shown (ex. x*y= 198)
+For this option, a possible issue may be people solving it using simple numbers, like x=1 and y =198. May need to add constraints, such as doing less damage if any of the numbers chosen are very small. 
+ OPTION3: “Solve for x”: The player must only solve for one aspect of the equation (ex. x+27=78)
+
+
+Chain Attack: After selecting an enemy, the player’s attack power will be cut in half. The player will then have to solve a series of equations with increasing difficulty and decreasing timer. Each successful solution will increase the attack by a multiplier (such as x1.5). We can choose one of the following 3 different failure states:
+OPTION1: If the player fails at any point, the multiplier they left on will be given to the enemy to use against the player
+OPTION2: If the player fails at any point, the attack is cancelled and it becomes the enemy’s turn
+OPTION3: If the player fails at any point, the multiplier they left on will be what they will attack with
+
+
+Defend: The player is given a shorter timer to solve the same equation as what is displayed on the screen. If they fail, they take the full force of the enemy attack. If they succeed, they can negate the damage
+ALT: The faster you solve, the more damage you negate
+
+
+Items(Optional): Various different items, if implemented in the game. For example, a calculator will immediately solve the equation presented. 
+
+Setting:
+
+School:
+School setting would be most appropriate for this style of game.
+Bosses can be midterms and finals (or even the teacher giving equations)
+Companions, if implemented can be obtained by helping with their hw
+Randomized battles can be due to “random math problems you think of in your head” or the teacher putting those problems in throughout the school day
+Set battles can be a list of hw the teacher gives  each day that the player must complete
+Competition: 
+
+Spinfall: mainly focused for Elementary school children, and uses a sort of Multiple-choice style of solving equations.
+
+Prodigy Game: Covers 1st-8th grade math material. Focused on use in education more than just everyday.
+
+We may have to set ours apart by just focusing on it teaching how to do quick math and for anyone to use as opposed to solely educational purposes. 
+
+Scope:
+
+The main focus of the game development should be on refining the battle system. Depending on the type of system we would like to implement, this may take 2 weeks to a month. 
+By the end of the first month, theses features should be the minimum we would accomplish:
+
+Tutorial
+At least 1 Boss
+At least 2 different enemy types
+Battle functionality implemented and at least mostly functional
+Navigation to at least get us to a battle
+Player and enemy sprite
+1 or 2 draft UI concepts. 
+
+By the end of the semester, these features should be the minimum we would have accomplished:
+
+At least 2 Bosses
+At least 4 different enemy types
+Fully functional battle
+At least 4 different scenes
+Full UI
+Sprites for enemy, player, and npcs
+Any additional features we have time for
+
+Extra stuff: 
+Companions can be recruited by helping with their math homework
+
+
